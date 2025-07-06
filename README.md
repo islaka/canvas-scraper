@@ -27,9 +27,10 @@ The main folder mentioned in this instruction is the folder with all the codes (
 2. Press F12 to open DevTool
 3. Choose "Console" tab on Devtool
 4. Paste the code in console-script.txt to the input section of the console
-NOTE: On Firefox, you have to type in "allow pasting" before pasting the code (make sure to delete the "allow pasting" text before pasting again)
 5. Press "Enter"
 6. Copy the downloaded canvas_course_links.txt back to the main folder
+
+NOTE: On Firefox, you have to type in "allow pasting" before pasting the code (make sure to delete the "allow pasting" text before pasting again)
 
 ### Step 3. Run the download script
 
