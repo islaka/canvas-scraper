@@ -1,0 +1,9 @@
+node_modules
+.env.local
+canvas-scraper-*
+
+course
+courses
+cookies.json
+canvas_course_links.txt
+course_info_errors.log

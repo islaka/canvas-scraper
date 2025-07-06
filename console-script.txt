@@ -1,0 +1,31 @@
+(function() {
+    // Get all anchor elements on the page
+    const links = document.querySelectorAll('a');
+    
+    // Filter links that start with the specified URL
+    const courseLinks = Array.from(links)
+        .map(link => link.href)
+        .filter(href => href.startsWith('https://fuv.instructure.com/courses/'))
+        .filter((value, index, self) => self.indexOf(value) === index); // Remove duplicates
+    
+    if (courseLinks.length === 0) {
+        console.log('No matching links found');
+        return;
+    }
+    
+    // Create a text file with the links
+    const linksText = courseLinks.join('\n');
+    const blob = new Blob([linksText], { type: 'text/plain' });
+    
+    // Create a download link and trigger the download
+    const downloadLink = document.createElement('a');
+    downloadLink.href = URL.createObjectURL(blob);
+    downloadLink.download = 'canvas_course_links.txt';
+    
+    // Append to the document temporarily, click, and then remove
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+    
+    console.log(`Found ${courseLinks.length} course links and downloaded to canvas_course_links.txt`);
+})();

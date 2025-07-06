@@ -1,0 +1,92 @@
+[
+  {
+    "name": "log_session_id",
+    "value": "VALUE",
+    "domain": "sit.instructure.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "_legacy_normandy_session",
+    "value": "VALUE",
+    "domain": "sit.instructure.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "canvas_session",
+    "value": "VALUE",
+    "domain": "sit.instructure.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "_hp2_ses_props.3001039959",
+    "value": "VALUE",
+    "domain": ".instructure.com",
+    "path": "/",
+    "expires": 1706224573,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "_ga",
+    "value": "VALUE",
+    "domain": ".instructure.com",
+    "path": "/",
+    "expires": 1740782773.823594,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_gid",
+    "value": "VALUE",
+    "domain": ".instructure.com",
+    "path": "/",
+    "expires": 1706309173,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_hp2_props.3001039959",
+    "value": "VALUE",
+    "domain": ".instructure.com",
+    "path": "/",
+    "expires": 1740300373,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "_hp2_id.3001039959",
+    "value": "VALUE",
+    "domain": ".instructure.com",
+    "path": "/",
+    "expires": 1740300373,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "_gat",
+    "value": "VALUE",
+    "domain": ".instructure.com",
+    "path": "/",
+    "expires": 1706222833,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_csrf_token",
+    "value": "VALUE",
+    "domain": "sit.instructure.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true
+  }
+]
